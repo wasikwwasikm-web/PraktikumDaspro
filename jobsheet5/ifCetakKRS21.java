@@ -13,7 +13,12 @@ public class ifCetakKRS21 {
                 System.out.println("Pembayaran UKT belum terverifikasi");
                 System.out.println("Silahkan selesaikan pembayaran UKT terlebih dahulu");
             }
-        }
+            String pesanTernary = uktLunas ? 
+            "Pembayaran UKT tervenifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA" : 
+            "Pembayaran UKT belum tervenifikasi\nSilahkan selesaikan pembayaran UKT terlebih dahulu";
+        System.out.println(pesanTernary);
+        sc.close();
+    }
 }
 
 
