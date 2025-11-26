@@ -1,0 +1,78 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "tugasD",
+            "request": "launch",
+            "mainClass": "pertemuan12Arry2.tugasD",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "tugasC",
+            "request": "launch",
+            "mainClass": "pertemuan12Arry2.tugasC",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "tugasB",
+            "request": "launch",
+            "mainClass": "pertemuan12Arry2.tugasB",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "tugasA",
+            "request": "launch",
+            "mainClass": "pertemuan12Arry2.tugasA",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "Bioskop20",
+            "request": "launch",
+            "mainClass": "Bioskop20",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "SIAKAD20",
+            "request": "launch",
+            "mainClass": "SIAKAD20",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "Numbers20",
+            "request": "launch",
+            "mainClass": "Numbers20",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "BioskopWithScanner20",
+            "request": "launch",
+            "mainClass": "BioskopWithScanner20",
+            "projectName": "PraktikumDaspro_6a2420e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch BioskopWithScanner20",
+            "request": "launch",
+            "mainClass": "jobsheet11.BioskopWithScanner20",
+            "projectName": "PraktikumDaspro",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -6,26 +6,18 @@ public class BioskopWithScanner20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[][] penonton = new String[4][2];
-        String nama, next;
-        int baris, kolom;
 
-        while (true) {
-            System.out.print("Masukkan nama: ");
-            nama = sc.nextLine();
-            System.out.print("Masukkan Baris: ");
-            baris = sc.nextInt();
-            System.out.print("Masukkan Kolom: ");
-            kolom = sc.nextInt();
-            sc.nextLine();
+        penonton[0][0] = "Andi";
+        penonton[1][1] = "Budi";
 
-            penonton[baris - 1][kolom - 1] = nama;
-            System.out.print("Input penonton lainnya? (y/n): ");
-            next = sc.nextLine();
-
-            if (next.equalsIgnoreCase("n")) {
-                break;
+        System.out.println("=== DAFTAR PENONTON ===");
+        for(int i=0; i<4; i++) {
+            for(int j=0; j<2; j++) {
+                String tampilan = (penonton[i][j] == null) ? "***" : penonton[i][j];
+                System.out.println("Baris " + (i+1) + ", Kolom " + (j+1) + ": " + tampilan);
             }
-
         }
+        sc.close();
+
     }
 }
