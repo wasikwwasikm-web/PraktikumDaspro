@@ -1,0 +1,16 @@
+# VS Code settings
+.vscode/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled Java
+*.class
+*.jar
+
+# OS
+.DS_Store
+Thumbs.db
